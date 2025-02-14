@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.firstdiv img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+} 
+.firstdiv{
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(25, 25, 192);
+    color: white;
+    padding: 20px 40px;
+    font-size: calc(8px + 1vw);
+    font-weight: bold;
+}
+/* .firstdiv h1{
+    margin-right: 400px;
+} */
+.firstdiv>button{
+    display: none;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a {
+    color:white;
+    text-decoration: none;
+}
+.intro {
+    text-align: center;
+    padding: 70px 70px;
+    background: rgb(199, 199, 211);
+}
+.search{
+    font-weight: 20px;
+    font-weight: bold;
+    background: rgb(25, 25, 192);
+    padding: 30px 30px;
+    /* color: white; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* font-size: 32px */
+    /* height: 400px; */
+    color: white;
+    column-gap: 50px;
+}
+.search img{
+    width: 25%;
+    border-radius: 20px;
+
+}
+.search .introduction p{
+    font-size: larger;
+    margin-top: 30px;
+}
+.search h2{
+    color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+.cresa img{
+    width: 25%;
+    border-radius: 20px;
+}
+.cresaintro{
+    display: flex;
+    flex-direction: column;
+}
+.cresa .cresaintro p{
+    font-size: larger;
+    margin-top: 30px;
+}
+.cresa{
+    font-weight: 20px;
+    font-weight: bold;
+    background: rgb(25, 25, 192);
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    column-gap: 50px;
+}
+.business{
+    font-weight: 20px;
+    font-weight: bold;
+    background: rgb(25, 25, 192);
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    column-gap: 50px;
+    flex-direction: row;
+}
+.business .busedu p{
+    font-size: larger;
+    margin-top: 30px;
+}
+.business img{
+    width: 25%;
+    border-radius: 20px;
+}
+.business h2{
+    color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+.agriculture img{
+    width: 25%;
+    border-radius: 20px;
+}
+.agricintro{
+    display: flex;
+    flex-direction: column;
+}
+.agriculture .agricintro p{
+    font-size: larger;
+    margin-top: 30px;
+}
+.agriculture{
+    font-weight: 20px;
+    font-weight: bold;
+    background: rgb(25, 25, 192);
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    column-gap: 50px;
+}
+.homeeconomics{
+    font-weight: 20px;
+    font-weight: bold;
+    background: rgb(25, 25, 192);
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    column-gap: 50px;
+    flex-direction: row;
+}
+.homeeconomics .homec p{
+    font-size: larger;
+    margin-top: 30px;
+}
+.homeeconomics img{
+    width: 25%;
+    border-radius: 20px;
+}
+.homeeconomics h2{
+    color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+.industrialTech img{
+    width: 25%;
+    border-radius: 20px;
+}
+.itedu{
+    flex-direction: column;
+    display: flex;
+}
+.industrialTech .itedu p{
+    font-size: larger;
+    margin-top: 30px;
+}
+.industrialTech{
+    font-weight: 20px;
+    font-weight: bold;
+    background: rgb(25, 25, 192);
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    column-gap: 50px;
+
+}
+
+
+
+footer{
+    background-color: green;
+    padding: 40px 40px;
+    display: flex;
+    align-items: center;
+    color: bisque;
+    justify-content: center;
+}
+.mobileNav{
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    top: 0px;
+    padding: 30px;
+    z-index: 10;
+    /* transition-duration: 2s; */
+}
+.mobileNav>button{
+    width: 50px;
+    height: 40px;
+    background-color: transparent;
+    background-image: url(icons8-cancel-100\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 50px 45px;
+    border-width: 0px;
+    border-radius: 5px;
+
+    position: absolute;
+    right: 30px;
+}
+.mobileNav nav ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    font-size: 28px;
+    padding-top: 20px;
+}
+.mobileNav nav ul li a{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .search, .cresa, .business, .agriculture, .homeeconomics, .industrialTech{
+        flex-direction: column;
+    }
+    .cresa img, .business img, .agriculture img, .homeeconomics img, .industrialTech img, .search img{
+        width: 80svw;
+        border-radius: 20px;
+        margin: 10px;
+    }
+    header>.firstdiv>nav{
+        display: none;
+    }
+
+    .firstdiv>button{
+        display: block;
+        width: 50px;
+        height: 40px;
+        background-color: transparent;
+        background-image: url(hamburgericon.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-width: 0px;
+        border-radius: 5px;
+    }
+}
