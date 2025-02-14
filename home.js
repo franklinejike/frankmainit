@@ -14,29 +14,50 @@ let books = [
         name: "Introduction to Computer Science",
         author: "David Evans",
         subject: "ComputerScience",
-        image: "agric.jpeg",
+        image: "compintro.jpeg",
         link: "https://www.computerscienceforeveryone.com"
     },
     {
-        name: "Calculus Made Easy",
-        author: "Silvanus P. Thompson",
-        subject: "Mathematics",
-        image: "book2.jpg",
-        link: "https://www.calculusmadeeasy.org"
-    },
-    {
-        name: "Maths Made Easy",
-        author: "Silvanus P. Thompson",
+        name: "Programming Language",
+        author: "shriram Krishnamurthi",
         subject: "ComputerScience",
-        image: "book2.jpg",
-        link: "https://www.calculusmadeeasy.org"
+        image: "programinglang.jpeg",
+        link: "programming lang.pdf"
     },
     {
-        name: "Basic Physics: A Self-Teaching Guide",
-        author: "Karl F. Kuhn",
+        name: "Algorithms and Data Structures",
+        author: "Jurg Nievergelt",
+        subject: "ComputerScience",
+        image: "AandD.jpeg",
+        link: "algorithms and data structures.pdf"
+    },
+    {
+        name: "Relational Data and Microsoft Acces 365",
+        author: "Ron Mcfadyen",
+        subject: "ComputerScience",
+        image: "database.jpeg",
+        link: "Relational-Databases-and-Microsoft-Access-365-1645549943.pdf"
+    },
+    {
+        name: "Linear Algebra",
+        author: "Robert A. Beezer",
+        subject: "Mathematics",
+        image: "linearalgebra.jpeg",
+        link: "linear algebra.pdf"
+    },
+    {
+        name: "Introduction to Probability",
+        author: "Grindstead and Snell",
+        subject: "Mathematics",
+        image: "probablilty.jpeg",
+        link: "introduction to probability.pdf"
+    },
+    {
+        name: "Principles of Mechanics",
+        author: "Salma Alrasheed",
         subject: "Physics",
-        image: "book1.jpg",
-        link: "https://www.basicphysics.org"
+        image: "principles.jpeg",
+        link: "978-3-030-15195-9.pdf"
     },
     {
         name: "University Physics",
@@ -46,19 +67,131 @@ let books = [
         link: "UniversityPhysics.pdf"
     },
     {
-        name: "Biology for Beginners",
-        author: "Tracy I. Storer",
-        subject: "Biology",
-        image: "bio.jpeg",
-        link: "https://www.biologyforbeginners.com"
+        name: "Mechanics and Relativity",
+        author: "Yimon Idema",
+        subject: "Physics",
+        image: "mechanics.jpeg",
+        link: "Idema+-+Mechanics+and+Relativity+Sept2019.pdf"
     },
     {
-        name: "University Biology",
-        author: "John Richard",
+        name: "General Biology",
+        author: "Tracy I. Storer",
         subject: "Biology",
-        image: "https://wallpapercave.com/wp/wp3059252.png",
-        link: "UniversityPhysics.pdf"
-    }
+        image: "GBio1.jpeg",
+        link: "GeneralBiology.pdf"
+    },
+    {
+        name: "General Biology II",
+        author: "Abiodun E. Adams",
+        subject: "Biology",
+        image: "GBio2.jpeg",
+        link: "BIO102 General Biology II.pdf"
+    },
+    {
+        name: "Anatomy and Physiology of Animals",
+        author: "Willey Blackwell",
+        subject: "Biology",
+        image: "anatomy.jpeg",
+        link: "Anatomy_and_Physiology_of_Animals.pdf"
+    },
+    {
+        name: "Environmental Biology",
+        author: "Matthew R. Fisher",
+        subject: "Biology",
+        image: "environmentalbio.jpeg",
+        link: "Environmental-Biology-1696032563.pdf"
+    },
+    {
+        name: "Weed Management",
+        author: "Agrimoon.com",
+        subject: "Agriculture",
+        image: "weed.jpeg",
+        link: "Weed-Management.pdf"
+    },
+    {
+        name: "Field Crops",
+        author: "Tamil Nadu",
+        subject: "Agriculture",
+        image: "field.jpeg",
+        link: "Field-Crop-Kharif.pdf"
+    },
+    {
+        name: "Energy Conservation and Management",
+        author: "Ashok Sethuraman",
+        subject: "Agriculture",
+        image: "energy.jpeg",
+        link: "ENERGY-CONSERVATION-AND-MANAGEMENT.pdf"
+    },
+    {
+        name: "Nutrition Science and Everyday Application",
+        author: "Alice Callahan, PHD",
+        subject: "HomeEconomics",
+        image: "nutrition.jpeg",
+        link: "Nutrition Science and Everyday Application, Alice Callahan, Heather Leonard, Med, Tamberly Powell.pdf"
+    },
+    {
+        name: "Human Nutrition",
+        author: "Langara College",
+        subject: "HomeEconomics",
+        image: "humannutrition.jpeg",
+        link: "Human-Nutrition-2020-Edition-1598491699.pdf"
+    },
+    {
+        name: "A Guide for Interior Design",
+        author: "A. Bhatia, B.E",
+        subject: "HomeEconomics",
+        image: "design.jpeg",
+        link: "A Guide for Interior Design, A. Bhatia, B.E.pdf"
+    },
+    {
+        name: "Clothing Textiles and Fashion",
+        author: "Saskatechewa Education",
+        subject: "HomeEconomics",
+        image: "clothing.jpeg",
+        link: "40542-Clothing_Textiles_and_Fashion_10_30_2000.pdf"
+    },
+    {
+        name: "Introduction to Business",
+        author: "lawrence J. Gitman",
+        subject: "BusinessEducation",
+        image: "businessintro.jpeg",
+        link: "IntroductionToBusiness-OP_8D04gAa.pdf"
+    },
+    {
+        name: "Financial Strategy for Public Managers",
+        author: "Sharon Kioko and Justin Marlowe",
+        subject: "BusinessEducation",
+        image: "strategy.jpeg",
+        link: "Financial-Strategy-for-Public-Managers-1695337744.pdf"
+    },
+    {
+        name: "eMarketing",
+        author: "Red & Yellow",
+        subject: "BusinessEducation",
+        image: "emarketing.jpeg",
+        link: "eMarketing_ed7.pdf"
+    },
+    {
+        name: "Electronic Commerce The Strategic Perspective",
+        author: "Richard T. Watson",
+        subject: "BusinessEducation",
+        image: "commerce.jpeg",
+        link: "Electronic-Commerce-The-Strategic-Perspective-1653439969.pdf"
+    },
+    {
+        name: "Introduction to Welding",
+        author: "David H. Philips",
+        subject: "IndustrialTechnical",
+        image: "weld.jpeg",
+        link: "Intro to Welding Technology.pdf"
+    },
+    {
+        name: "Building Strategy and Performance",
+        author: "David H. Philips",
+        subject: "IndustrialTechnical",
+        image: "building.jpeg",
+        link: "Intro to Welding Technology.pdf"
+    },
 ]
 
 
