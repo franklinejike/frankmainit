@@ -46,6 +46,13 @@ let books = [
         link: "linear algebra.pdf"
     },
     {
+        name: "Linear Algebra",
+        author: "Robert A. Beezer",
+        subject: "Mathematics",
+        image: "linearalgebra.jpeg",
+        link: "linear algebra.pdf"
+    },
+    {
         name: "Introduction to Probability",
         author: "Grindstead and Snell",
         subject: "Mathematics",
