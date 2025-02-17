@@ -56,7 +56,7 @@ nav ul li a {
 .contacts .column1{
     width: 50%;
     height: 100%;
-    background-color: rgb(240, 166, 166);
+    background-color: rgb(134, 245, 134);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -72,7 +72,7 @@ nav ul li a {
 .contacts .column2{
     width: 50%;
     height: 100%;
-    background-color: blueviolet;
+    background-color:  rgb(134, 245, 134);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -153,6 +153,9 @@ footer{
     }
     header>.firstdiv>nav{
         display: none;
+    }
+    *{
+        font-size: large;
     }
 
     .firstdiv>button{

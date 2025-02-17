@@ -214,6 +214,16 @@ footer{
     header>.firstdiv>nav{
         display: none;
     }
+    *{
+        font-size: large;
+    }
+    .search input[type=search]{
+        height: 35px;
+        width: 25vw;
+        border-radius: 5px;
+        border-width: 0px;
+        padding: 0px 15px;
+    }
 
     .firstdiv>button{
         display: block;

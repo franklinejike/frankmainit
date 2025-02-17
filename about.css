@@ -259,6 +259,9 @@ footer{
     header>.firstdiv>nav{
         display: none;
     }
+    *{
+        font-size: large;
+    }
 
     .firstdiv>button{
         display: block;
