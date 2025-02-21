@@ -3,25 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: linear-gradient(to top,#53900f, #a4a71a, #d6ce15 );
+}
 .firstdiv img{
     width: 60px;
     height: 60px;
     border-radius: 10px;
 } 
 .firstdiv{
-    /* background-color: green; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(25, 25, 192);
+    background: #1f6521;
     color: white;
     padding: 20px 40px;
     font-size: calc(8px + 1vw);
     font-weight: bold;
 }
-/* .firstdiv h1{
-    margin-right: 400px;
-} */
 .firstdiv>button{
     display: none;
 }
@@ -29,6 +28,7 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
+    font-size: large;
 }
 nav ul li a {
     color:white;
@@ -37,19 +37,16 @@ nav ul li a {
 .intro {
     text-align: center;
     padding: 70px 70px;
-    background: rgb(199, 199, 211);
+    background: #d6ce15;
 }
 .search{
     font-weight: 20px;
     font-weight: bold;
-    background: rgb(25, 25, 192);
+    /* background: rgb(59, 154, 59); */
     padding: 30px 30px;
     /* color: white; */
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
-    /* font-size: 32px */
-    /* height: 400px; */
     color: white;
     column-gap: 50px;
 }
@@ -83,7 +80,7 @@ nav ul li a {
 .cresa{
     font-weight: 20px;
     font-weight: bold;
-    background: rgb(25, 25, 192);
+    /* background: rgb(25, 25, 192); */
     padding: 30px 30px;
     display: flex;
     align-items: center;
@@ -93,7 +90,7 @@ nav ul li a {
 .business{
     font-weight: 20px;
     font-weight: bold;
-    background: rgb(25, 25, 192);
+    /* background: rgb(25, 25, 192); */
     padding: 30px 30px;
     display: flex;
     align-items: center;
@@ -130,7 +127,7 @@ nav ul li a {
 .agriculture{
     font-weight: 20px;
     font-weight: bold;
-    background: rgb(25, 25, 192);
+    /* background: rgb(25, 25, 192); */
     padding: 30px 30px;
     display: flex;
     align-items: center;
@@ -140,7 +137,7 @@ nav ul li a {
 .homeeconomics{
     font-weight: 20px;
     font-weight: bold;
-    background: rgb(25, 25, 192);
+    /* background: rgb(25, 25, 192); */
     padding: 30px 30px;
     display: flex;
     align-items: center;
@@ -177,7 +174,7 @@ nav ul li a {
 .industrialTech{
     font-weight: 20px;
     font-weight: bold;
-    background: rgb(25, 25, 192);
+    /* background: rgb(25, 25, 192); */
     padding: 30px 30px;
     display: flex;
     align-items: center;
@@ -189,7 +186,7 @@ nav ul li a {
 
 
 footer{
-    background-color: green;
+    background-color: #1f6521;
     padding: 40px 40px;
     display: flex;
     align-items: center;
