@@ -35,6 +35,9 @@ nav ul li a {
     padding: 50px 70px;
     background: #d6ce15;
 }
+.intro p{
+    font-size: 20px;
+}
 .search{
     font-weight: 20px;
     font-weight: bold;
